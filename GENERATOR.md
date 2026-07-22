@@ -22,17 +22,21 @@ Dossier projet : `C:\Users\neuvi\rate-pas-le-train`
    Regarder le fichier le plus récent dans `editions/` pour connaître la date de la
    dernière édition : on ne couvre que l'actu parue **depuis** cette date.
 
-2. **Rechercher.** Faire des recherches web sur les 4 thèmes, en ciblant les jours
+2. **Rechercher.** Faire des recherches web sur les 6 thèmes, en ciblant les jours
    écoulés depuis la dernière édition :
    - 🤖 IA / modèles (nouveaux modèles, recherche, outils IA)
    - 🏢 Big Tech / business (GAFAM, OpenAI, levées, stratégie, régulation)
    - 🚀 Startups / produits (levées, lancements, nouveaux produits)
    - 🛠️ Dev / outils (frameworks, langages, open source, sorties techniques)
+   - 🇨🇳 Chine (modèles et labos chinois, Alibaba/ByteDance/Moonshot/DeepSeek, régulation, géopolitique IA)
+   - 🇪🇺 Europe (Mistral et startups européennes, levées, AI Act et régulation UE, souveraineté)
 
-3. **Sélectionner.** Garder 8 à 12 actus notables au total, réparties dans les 4
-   rubriques. **Ordre des rubriques : IA → Big Tech → Startups → Dev.** Une rubrique
-   peut rester vide si rien de notable — ne jamais remplir artificiellement.
+3. **Sélectionner.** Garder 10 à 15 actus notables au total, réparties dans les 6
+   rubriques. **Ordre des rubriques : IA → Big Tech → Startups → Dev → Chine → Europe.**
+   Une rubrique peut rester vide si rien de notable — ne jamais remplir artificiellement.
    Écarter toute actu déjà traitée dans l'édition précédente (comparer titres/sources).
+   Éviter les doublons entre rubriques : une actu chinoise ou européenne va dans sa
+   rubrique géographique plutôt que dans IA/Big Tech/Startups/Dev.
 
 4. **Rédiger.** Créer `editions/AAAA-MM-JJ-<jour>.html` en copiant la structure EXACTE
    de l'édition de référence (`2026-07-10-vendredi.html`) : même CSS, même mise en page.
@@ -55,7 +59,7 @@ Dossier projet : `C:\Users\neuvi\rate-pas-le-train`
 
 ## Cas d'échec (important)
 
-- **Recherche vide / panne réseau / moins de ~4 actus notables** : NE PAS créer de page
+- **Recherche vide / panne réseau / moins de ~6 actus notables** : NE PAS créer de page
   ni modifier l'index. À la place, créer un brouillon Gmail à neuville.louis75@gmail.com
   avec l'objet « Rate pas le train — pas d'édition aujourd'hui » expliquant brièvement
   pourquoi, puis s'arrêter. Mieux vaut pas d'édition qu'une édition vide.
@@ -63,6 +67,6 @@ Dossier projet : `C:\Users\neuvi\rate-pas-le-train`
 
 ## Rappel des contraintes
 
-- Français, clair, ~7 min. 8-12 actus. 4 rubriques dans l'ordre IA → Big Tech → Startups → Dev.
+- Français, clair, ~7 min. 10-15 actus. 6 rubriques dans l'ordre IA → Big Tech → Startups → Dev → Chine → Europe.
 - Titre du bulletin : « Rate pas le train ». Sections vides autorisées. Pas de doublons.
 - Liens vers les vraies sources (URL précises).
